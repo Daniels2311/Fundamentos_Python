@@ -9,7 +9,7 @@ print(Valor1)
 Valor2 = float (input("Ingrese otro numero: "))
 print(Valor2)
 
-print("Ingrese la operacion que desea realizar: \n1.Suma \n2.Resta \n3.Multiplicacion \n4.Division: ")
+print("Ingrese la operacion que desea realizar (del 1 al 4): \n1.Suma \n2.Resta \n3.Multiplicacion \n4.Division: ")
 
 Eleccion = input("La operacion que eligio es: ")
 
