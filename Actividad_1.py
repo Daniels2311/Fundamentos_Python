@@ -13,12 +13,6 @@ programa = "ADSO"
 
 #imprimir el tipo de dato y el valor de cada variable
 
-telefono_int = int(telefono)
-edad_float = float(edad)
-altura_int = int(altura)
-cedula_str = str(cedula)
-  
-
 print(type(nombre), nombre)
 print(type(apeliido), apeliido)
 print(type(edad), edad)
@@ -29,9 +23,5 @@ print(type(telefono), telefono)
 print(type(cedula), cedula)
 print(type(ficha), ficha)
 print(type(programa), programa)
-print(type(telefono_int), telefono_int)
-print(type(edad_float), edad_float)
-print(type(altura_int), altura_int)
-print(type(cedula_str), cedula_str)
 
 #Actividad 2: Calculadora de Notas

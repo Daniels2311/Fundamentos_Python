@@ -65,3 +65,4 @@ print(f"El valor de la raiz cuadrada de 16 es: {math.sqrt(16)}")
 random.random() #genera un numero aleatorio entre 0 y 1
 numero_aleatorio = random.randint(1, 10) #genera un numero aleatorio entre 1 y 10
 print(random.random())
+print({numero_aleatorio}) 
