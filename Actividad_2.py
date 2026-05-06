@@ -1,13 +1,20 @@
 # Actividad 2: Calculadora de Notas
+
 print("=" * 50)
 print("Calculadora de Notas")
 print("=" * 50)
 print("Por favor ingrese las tres notas del estudiante para calcular el promedio y determinar su estado")
 print("-" * 50)
 
+# Se solicita al usuario que ingrese las tres notas del estudiante, se convierten a tipo float para permitir decimales
+
 Nota_1 = float(input("Ingrese la primera nota: "))
 Nota_2 = float(input("Ingrese la segunda nota: "))
 Nota_3 = float(input("Ingrese la tercera nota: "))
+
+#Con el condicional if se valida que las notas ingresadas sean menores a 5 y no sean negativas, 
+# si alguna de las notas no cumple con estas condiciones se muestra un mensaje de error, 
+# de lo contrario se calcula el promedio y se determina el estado del estudiante
 
 if Nota_1 > 5.0 or Nota_2 > 5.0 or Nota_3 > 5.0:
     print("Error: Las notas tienen que ser menores a 5")
@@ -16,6 +23,7 @@ if Nota_1 > 5.0 or Nota_2 > 5.0 or Nota_3 > 5.0:
 else:
     Promedio = (Nota_1 + Nota_2 + Nota_3) / 3
     nota_faltante = 3 - Promedio
+    nota_maxima = 5 - Promedio 
 
     print("-" * 50)
     print("Primera nota:", Nota_1)
@@ -24,13 +32,18 @@ else:
     print("El promedio del aprendiz es: ", round(Promedio,2))
     print("-" * 50)
 
-
     if Promedio <= 2.9:
         print("El aprendiz no aprobo sacando un promedio de: ", round(Promedio,2))
         print("Para aprobar necesita una nota de: ", round(nota_faltante,2))
+        print("Para aprobar con la nota mas alta necesita una nota de: ", round(nota_maxima,2),)
         print("Nivel de desempeño: Bajo")
-    elif Promedio >=3.0 and Promedio < 4.9:
+    elif Promedio >=3.0 and Promedio < 3.9:
         print("El aprendiz aprobo con un promedio de: ", round(Promedio,2))
+        print("Para tener la nota mas alta necesita una nota de: ", round(nota_maxima,2),)
+        print("Nivel de desempeño: Basico")
+    elif Promedio >=4.0 and Promedio < 4.9:
+        print("El aprendiz aprobo con un promedio de: ", round(Promedio,2))
+        print("Para tener la nota mas alta necesita una nota de: ", round(nota_maxima,2),)
         print("Nivel de desempeño: Alto")
     else:
         print("El aprendiz aprobo: ", round(Promedio,2))

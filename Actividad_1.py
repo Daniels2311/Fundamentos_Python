@@ -23,5 +23,3 @@ print(type(telefono), telefono)
 print(type(cedula), cedula)
 print(type(ficha), ficha)
 print(type(programa), programa)
-
-#Actividad 2: Calculadora de Notas
