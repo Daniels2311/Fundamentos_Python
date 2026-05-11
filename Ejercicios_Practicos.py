@@ -4,6 +4,7 @@ import math
 
 #Ejercicio 1
 
+print ("=" * 50)
 print("Ejercicio 1")
 nombre = "Daniel Granados"
 valor = "20.000"
@@ -13,6 +14,7 @@ print("Hola", nombre, "el valor de la hamburguesa es:", valor, "y tu promedio de
 
 #Ejercicio 2
 
+print ("=" * 50)
 print("Ejercicio 2")
 variable_1_entera = int(input("Ingrese un numero entero: ")) 
 variable_2_entera = int(input("Ingrese otro numero entero: ")) 
@@ -28,6 +30,7 @@ print ("La concatenacion de las palabras es:", variable_1_string + " " + variabl
 
 #Ejercicio 3
 
+print ("=" * 50)
 print("Ejercicio 3")
 base = float(input("Ingrese la base para elevar el numero: "))
 exponente = float(input("Ingrese un numero para elevar la base: "))
@@ -35,12 +38,14 @@ print("El resultado de elevar la base con la potencia es: ", base ** exponente)
 
 #Ejercicio 4
 
+print ("=" * 50)
 print("Ejercicio 4")
 operacion_raiz = float(input("Ingrese un numero para sacar su raiz cuadrada: "))
 print("La raiz cuadrada del numero es: ", math.sqrt(operacion_raiz))
 
 #Ejercicio 5
 
+print ("=" * 50)
 print("Ejercicio 5")
 nombre = (input("Ingrese su nombre: "))
 nota1 = float (input("Ingrese la primera nota: "))
@@ -53,6 +58,7 @@ print("Hola", nombre, "tu promedio de notas es:", promedio)
 
 #Ejercicio 6
 
+print ("=" * 50)
 print("Ejercicio 6")
 numeroUno = 8
 numeroDos = 2
@@ -66,18 +72,21 @@ print("El valor de numeroDos es:", numeroDos)
 
 #Ejercicio 7
 
+print ("=" * 50)
 print("Ejercicio 7")
 Estado = (5 ==2) or (2>1)
 print("El resultado de la operacion es:", Estado)
 
 #Ejercicio 8
 
+print ("=" * 50)
 print("Ejercicio 8")
 Resultado = (4 / 9) * (3 + 2) + (5 ** 2) + (6 * 3) - (7 % 2)
 print("El resultado de la operacion es:", Resultado)
 
 #Ejercicio 9
 
+print ("=" * 50)
 print("Ejercicio 9")
 ladoCuadrado = 8
 areaCuadrado = ladoCuadrado ** 2
@@ -100,10 +109,11 @@ print("El area del rectangulo es:", areaRectangulo, "Y el perimetro del rectangu
 
 #Ejercicio 10
 
+print ("=" * 50)
 print("Ejercicio 10")
 edad = int(input("Ingrese su edad: "))
 
-if edad < 18:    
+if edad <= 18:    
     if edad >= 0 and edad <= 5:
         print("Eres un Infante")
     elif edad >= 6 and edad <= 10:
@@ -121,3 +131,4 @@ else:
         print("Eres un Pre anciano")
     else:
         print("Eres un Anciano")
+print ("=" * 50)
