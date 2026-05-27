@@ -1,0 +1,4 @@
+Hola mundo estoy aprendiendo a menajear archivos con python
+Daniel Santiago Granados
+Analisis y Desarrollo de Software
+
