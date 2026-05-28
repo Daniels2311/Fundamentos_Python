@@ -46,5 +46,3 @@ try:
 except FileNotFoundError:
     open("archivo_2.txt", "x")
     print("Archivo no encontrado")
-
-
